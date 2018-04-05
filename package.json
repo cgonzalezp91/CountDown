@@ -1,0 +1,16 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "A Simple CountDown made in JS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgonzalezp91"
+  },
+  "keywords": [
+    "JS",
+    "Flexbox"
+  ],
+  "author": "Carlos Gonzalez (https://www.linkedin.com/in/cgonzalezp91/)",
+  "license": "MIT"
+}

@@ -1,0 +1,56 @@
+body {
+    background: black;
+}
+section {
+    width: 50vw;
+    height: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 350px;
+    flex-wrap: wrap;
+}
+div {
+    white-space: pre-line;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.countdownD::after{
+    content: "Days";
+    color: rgb(90, 87, 92);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.countdownH::after{
+    content: "Hours";
+    color: rgb(90, 87, 92);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.countdownM::after{
+    content: "Minutes";
+    color: rgb(90, 87, 92);
+}
+.countdownS::after{
+    content: "Seconds";
+    color: rgb(90, 87, 92);
+}
+.countdownD:hover{
+    border-color: coral;
+    color: coral;
+}
+.countdownH:hover{
+    border-color: aqua;
+    color: aqua;
+}
+.countdownM:hover{
+    border-color: greenyellow;
+    color: greenyellow;
+}
+.countdownS:hover{
+    border-color: rgb(230, 89, 230);
+    color: rgb(230, 89, 230);;
+}
