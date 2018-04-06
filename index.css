@@ -1,9 +1,17 @@
 body {
-    background: black;
+    /* background-image: url('C:\Users\CABNLDS074\Documents\Desarrollos\CountDown\majorasmask.jpg');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat; */
+    /* background: url(majorasmask.jpg), black, no-repeat; */
+    /* background-image:url('mayorasmask.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px 600px; */
+    background-color: black;
 }
 section {
     width: 50vw;
-    height: 40vw;
+    /* height: 40vw; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,6 +25,7 @@ div {
     padding: 10px;
     font-size: 40px;
     color: aliceblue;
+    /* margin-top: 500px; */
 }
 .countdownD::after{
     content: "Days";
