@@ -1,5 +1,5 @@
 // Date limit of our countdown
-let countDate = new Date('Apr 10 2018 00:00:00')
+let countDate = new Date('Apr 6 2018 17:47:00')
 //Arrow Fuction to bring us the Remaining Time, Seconds, Minutes, Hours and Days
 const TimeLeft = countDate => {
     let now = new Date(),
@@ -18,6 +18,7 @@ const TimeLeft = countDate => {
     }
 };
 //Set up our interval to start the countdown
+const functiontimer = () => {
  const countdown = setInterval(() => {
     //call the arrow function sending the string with the CountDown Date
     let t = TimeLeft(countDate)
@@ -28,6 +29,10 @@ const TimeLeft = countDate => {
     document.getElementById("seconds").textContent = t.rSeconds + '\r\n'
     if (t.rTime <= 1) {
         clearInterval(countdown)
-        alert('The time is over!')
+        let newdate = new Date()
+        countDate =(newdate.setDate(newdate.getDate() + 3))
+        functiontimer()
     }
  }, 1000);
+}
+functiontimer()
